@@ -1,3 +1,5 @@
+// Use getter setter method for good approch
+
 class Parent {
   int x = 10;
   String str1 = "Kanha";
