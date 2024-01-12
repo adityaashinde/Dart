@@ -3,14 +3,13 @@ mixin DemoParent {
     print("In m1-DemoParent");
   }
 }
-
-class Demo {
+mixin Demo {
   void m2() {
     print("In m2-Demo");
   }
 }
 
-class DemoChild extends Demo with DemoParent {
+class DemoChild with Demo, DemoParent {
   //
 }
 
